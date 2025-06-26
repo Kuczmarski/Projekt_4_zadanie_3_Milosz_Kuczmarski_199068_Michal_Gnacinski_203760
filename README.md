@@ -1,4 +1,4 @@
-# Symulator windy
+#Zadanie 3 - Symulator windy
 
 ## Spis treści
 1. [Wstęp](#wstęp)
