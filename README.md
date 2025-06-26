@@ -42,10 +42,8 @@ Użytkownik klika przyciski na wybranym piętrze, aby wezwać windę i określi�
   - Główna procedura komunikatów WinAPI (tworzenie przycisków, obsługa WM\_COMMAND, WM\_TIMER, WM\_PAINT).
 
 ## Instrukcja kompilacji
-
-1. Otwórz wiersz poleceń i przejdź do katalogu zawierającego `main.cpp`.
-2. Uruchom kompilator MSVC:
    ```batch
+   cd sciezka do pliku
    cl main.cpp /EHsc user32.lib gdi32.lib ole32.lib gdiplus.lib
    main.exe
    ```
