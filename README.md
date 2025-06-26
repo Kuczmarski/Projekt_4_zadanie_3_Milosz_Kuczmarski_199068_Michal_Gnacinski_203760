@@ -31,15 +31,15 @@ Użytkownik klika przyciski na wybranym piętrze, aby wezwać windę i określi�
 
 - **ObsluzPrzyjazd(int pietro)**
 
-  - Obsługa przyjazdu kabiny: wysiadanie, wsiadanie nowych pasażerów, aktualizacja kolejki.
+  - Obsługa przyjazdu windy: wysiadanie, wsiadanie nowych pasażerów, aktualizacja kolejki.
 
 - **Rysuj(HDC hdc)**
 
-  - Rysuje szyby, kabinę, pasażerów oraz aktualny stan obciążenia.
+  - Rysuje windę, pasażerów oraz aktualny stan obciążenia.
 
 - **WndProc**
 
-  - Główna procedura komunikatów WinAPI (tworzenie przycisków, obsługa WM\_COMMAND, WM\_TIMER, WM\_PAINT).
+  - Główna procedura komunikatów WinAPI (tworzenie przycisków, obsługa WM_COMMAND, WM_TIMER, WM_PAINT).
 
 ## Instrukcja kompilacji
    ```batch
