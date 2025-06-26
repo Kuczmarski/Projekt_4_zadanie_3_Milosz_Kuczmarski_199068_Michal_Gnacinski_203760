@@ -28,7 +28,7 @@ Całość kodu znajduje się w jednym pliku `main.cpp`. Użyto WinAPI i GDI+ do 
 - **Rysuj(hdc)**: rysuje szybę, kabinę i pasażerów oraz licznik obciążenia.
 - **WndProc**: główna procedura obsługi zdarzeń (przyciski, timery, malowanie).
 
-## Instrukcja kompilacji
+## Instrukcja kompilacji w Visual Studio 2022 Developer Command Prompt
 ```bash
 cd ścieżka/do/pliku
 cl main.cpp /EHsc user32.lib gdi32.lib ole32.lib gdiplus.lib
